@@ -4,12 +4,11 @@ Name:		ImageViewer
 Version:	0.6.1
 Release:	1
 License:	GPL
-Group:		X11/Applications
+Group:		X11/Applications/Graphics
 Source0:	ftp://ftp.gnustep.org/pub/gnustep/usr-apps/%{name}-%{version}.tar.gz
 # Source0-md5:	4d1cfe134814c51a4c7b639bec19d8f8
 BuildRequires:	gnustep-extensions-devel
 BuildRequires:	gnustep-gui-devel >= 0.8.7
-#BuildRequires:	gnustep-back-devel >= 0.8.7
 Requires:	gnustep-gui >= 0.8.7
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
