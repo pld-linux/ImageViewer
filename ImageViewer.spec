@@ -1,12 +1,12 @@
 Summary:	Simple image viewer for GNUstep
 Summary(pl):	Prosta przegl±darka obrazków dla ¶rodowiska GNUstep
 Name:		ImageViewer
-Version:	0.6.1
+Version:	0.6.2
 Release:	1
 License:	GPL
 Group:		X11/Applications/Graphics
-Source0:	ftp://ftp.gnustep.org/pub/gnustep/usr-apps/%{name}-%{version}.tar.gz
-# Source0-md5:	4d1cfe134814c51a4c7b639bec19d8f8
+Source0:	http://www.nice.ch/~phip/%{name}-%{version}.tar.gz
+# Source0-md5:	f729146b8c55357a35cf419fbab9bcc5
 URL:		http://www.nice.ch/~phip/softcorner.html#img
 BuildRequires:	gnustep-extensions-devel
 BuildRequires:	gnustep-gui-devel >= 0.8.7
@@ -59,6 +59,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_prefix}/System/Applications/ImageViewer.app/Resources/*.desktop
 %{_prefix}/System/Applications/ImageViewer.app/Resources/*.plist
 %{_prefix}/System/Applications/ImageViewer.app/Resources/*.tiff
+%{_prefix}/System/Applications/ImageViewer.app/Resources/English.lproj
+%lang(fr) %{_prefix}/System/Applications/ImageViewer.app/Resources/French.lproj
+%lang(de) %{_prefix}/System/Applications/ImageViewer.app/Resources/German.lproj
 %dir %{_prefix}/System/Applications/ImageViewer.app/%{gscpu}
 %dir %{_prefix}/System/Applications/ImageViewer.app/%{gscpu}/%{gsos}
 %dir %{_prefix}/System/Applications/ImageViewer.app/%{gscpu}/%{gsos}/%{libcombo}
