@@ -1,0 +1,20 @@
+--- ImageViewer-0.6.3/main.m.orig	2003-06-29 19:28:34.000000000 +0200
++++ ImageViewer-0.6.3/main.m	2004-10-31 21:53:54.805121848 +0100
+@@ -17,11 +17,17 @@
+  * Initialise and go!
+  */
+ 
++extern char **environ;
++
+ int main(int argc, const char *argv[]) 
+ {
+   NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+   AppController     *controller;
+   
++#ifdef GS_PASS_ARGUMENTS
++  [NSProcessInfo initializeWithArguments: argv count: argc environment: environ];
++#endif
++	  
+   [NSApplication sharedApplication];
+ 
+   createMenu();
