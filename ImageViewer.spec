@@ -8,7 +8,6 @@ Group:		X11/Applications/Graphics
 Source0:	http://www.nice.ch/~phip/%{name}-%{version}.tar.gz
 # Source0-md5:	f729146b8c55357a35cf419fbab9bcc5
 URL:		http://www.nice.ch/~phip/softcorner.html#img
-BuildRequires:	gnustep-extensions-devel
 BuildRequires:	gnustep-gui-devel >= 0.8.7
 Requires:	gnustep-gui >= 0.8.7
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
