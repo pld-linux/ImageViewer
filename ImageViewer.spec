@@ -7,6 +7,7 @@ License:	GPL
 Group:		X11/Applications/Graphics
 Source0:	ftp://ftp.gnustep.org/pub/gnustep/usr-apps/%{name}-%{version}.tar.gz
 # Source0-md5:	4d1cfe134814c51a4c7b639bec19d8f8
+URL:		http://www.nice.ch/~phip/softcorner.html#img
 BuildRequires:	gnustep-extensions-devel
 BuildRequires:	gnustep-gui-devel >= 0.8.7
 Requires:	gnustep-gui >= 0.8.7
