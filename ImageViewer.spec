@@ -2,7 +2,7 @@ Summary:	Simple image viewer for GNUstep
 Summary(pl):	Prosta przegl±darka obrazków dla ¶rodowiska GNUstep
 Name:		ImageViewer
 Version:	0.6.3
-Release:	2
+Release:	3
 License:	GPL
 Group:		X11/Applications/Graphics
 Source0:	http://www.nice.ch/~phip/%{name}-%{version}.tar.gz
