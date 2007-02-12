@@ -1,5 +1,5 @@
 Summary:	Simple image viewer for GNUstep
-Summary(pl):	Prosta przegl±darka obrazków dla ¶rodowiska GNUstep
+Summary(pl.UTF-8):   Prosta przeglÄ…darka obrazkÃ³w dla Å›rodowiska GNUstep
 Name:		ImageViewer
 Version:	0.6.3
 Release:	3
@@ -27,8 +27,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This is ImageViewer, a simple image viewer application for GNUstep.
 
-%description -l pl
-To jest ImageViewer - prosta przegl±darka obrazków dla ¶rodowiska
+%description -l pl.UTF-8
+To jest ImageViewer - prosta przeglÄ…darka obrazkÃ³w dla Å›rodowiska
 GNUstep.
 
 %prep
