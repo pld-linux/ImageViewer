@@ -1,5 +1,5 @@
 Summary:	Simple image viewer for GNUstep
-Summary(pl.UTF-8):   Prosta przeglądarka obrazków dla środowiska GNUstep
+Summary(pl.UTF-8):	Prosta przeglądarka obrazków dla środowiska GNUstep
 Name:		ImageViewer
 Version:	0.6.3
 Release:	3
